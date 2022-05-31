@@ -1,6 +1,6 @@
 import { createStitches } from '@stitches/react'
 
-export const { styled, theme, css, config } = createStitches({
+export const { styled, theme, css, config, globalCss } = createStitches({
   theme: {
     fonts: {
       family: 'Open Sans',

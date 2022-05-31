@@ -1,4 +1,4 @@
-import { globalCss } from '@stitches/react'
+import { globalCss } from './stitches.config'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -12,7 +12,7 @@ const globalStyles = globalCss({
     boxSizing: 'border-box',
   },
   body: {
-    background: '#000000',
+    background: '$black',
     color: '#FFFFFF',
     fontFamily: 'Open Sans',
     width: '100%',
