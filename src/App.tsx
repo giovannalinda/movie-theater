@@ -1,5 +1,10 @@
 import { globalCss } from '@stitches/react'
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import { Login } from 'pages'
+import { LOGIN } from 'routes'
+
 const globalStyles = globalCss({
   '*': {
     margin: 0,
@@ -10,6 +15,7 @@ const globalStyles = globalCss({
     background: '#000000',
     color: '#FFFFFF',
     fontFamily: 'Open Sans',
+    width: '100%',
   },
   button: {
     cursor: 'pointer',
@@ -25,7 +31,13 @@ const globalStyles = globalCss({
 function App() {
   globalStyles()
 
-  return <h1>Hello World! :D</h1>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path={LOGIN} element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App
