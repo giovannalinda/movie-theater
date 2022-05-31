@@ -1,7 +1,8 @@
 import { styled } from '../../stitches.config'
+import { background } from 'assets'
 
 export const Container = styled('div', {
-  background: 'linear-gradient($black, $purple900)',
+  backgroundImage: `url(${background})`,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

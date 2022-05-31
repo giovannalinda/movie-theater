@@ -2,8 +2,8 @@ import { globalCss } from './stitches.config'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Login } from 'pages'
-import { LOGIN } from 'routes'
+import { Home, Login } from 'pages'
+import { HOME, LOGIN } from 'routes'
 
 const globalStyles = globalCss({
   '*': {
@@ -13,7 +13,7 @@ const globalStyles = globalCss({
   },
   body: {
     background: '$black',
-    color: '#FFFFFF',
+    color: '$white',
     fontFamily: 'Open Sans',
     width: '100%',
   },
@@ -35,6 +35,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={LOGIN} element={<Login />} />
+        <Route path={HOME} element={<Home />} />
       </Routes>
     </BrowserRouter>
   )
