@@ -1,5 +1,44 @@
+import { globalCss } from './stitches.config'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import { Home, Login } from 'pages'
+import { HOME, LOGIN } from 'routes'
+
+const globalStyles = globalCss({
+  '*': {
+    margin: 0,
+    padding: 0,
+    boxSizing: 'border-box',
+  },
+  body: {
+    background: '$black',
+    color: '$white',
+    fontFamily: 'Open Sans',
+    width: '100%',
+  },
+  button: {
+    cursor: 'pointer',
+  },
+  a: {
+    textDecoration: 'none',
+  },
+  ul: {
+    listStyle: 'none',
+  },
+})
+
 function App() {
-  return <h1>Hello World! :D</h1>
+  globalStyles()
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path={LOGIN} element={<Login />} />
+        <Route path={HOME} element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App

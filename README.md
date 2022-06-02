@@ -5,6 +5,7 @@
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Stitches](https://stitches.dev/docs/installation)
 
 ## Getting Started
 ### Install dependencies:
