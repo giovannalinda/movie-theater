@@ -1,12 +1,13 @@
 import { styled } from 'stitches.config'
 
 export const Aside = styled('aside', {
-  width: '400px',
+  width: '330px',
   bottom: '0',
   position: 'fixed',
   top: '0',
   left: '0',
   background: '$gray900',
+  boxShadow: '25rem 0 0 120rem rgba(0, 0, 0, 0.5)',
 
   p: {
     margin: '180px 0 0 70px',
@@ -21,14 +22,14 @@ export const Aside = styled('aside', {
   a: {
     marginLeft: '70px',
     color: '$white',
-    background: 'linear-gradient(to left, $purple300 2%, $purple600 50%)',
-    borderRadius: '14px',
+    border: '1px solid $gray300',
+    borderRadius: '24px',
     padding: '10px 30px',
     fontWeight: '$bold',
     transition: '0.8s',
 
     '&:hover': {
-      border: '2px solid $purple600',
+      borderColor: '$purple600',
       background: 'none',
     },
 
