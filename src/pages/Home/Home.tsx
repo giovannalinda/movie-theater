@@ -1,7 +1,9 @@
+import { Sidebar } from 'components'
+
 export function Home() {
   return (
     <>
-      <h1>home</h1>
+      <Sidebar />
     </>
   )
 }
