@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { FaBars } from 'react-icons/fa'
 
 import { Menu } from 'components/Menu'
 
 import * as S from './Sidebar.styled'
+import { menu } from 'assets'
 
 export function Sidebar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,7 +12,7 @@ export function Sidebar() {
     <S.Navbar>
       <S.ShowSidebar>
         <button onClick={() => setIsOpen(true)}>
-          <FaBars size={20} />
+          <img src={menu} alt='menu' />
         </button>
         {isOpen ? <Menu onClose={() => setIsOpen(false)} /> : null}
       </S.ShowSidebar>

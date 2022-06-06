@@ -1,0 +1,114 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "comedy",
+      "title": "Comédia",
+      "description": "Risada para toda a família"
+    },
+    {
+      "id": 2,
+      "name": "ficção",
+      "title": "Ficção cientifica",
+      "description": "Espetáculos de ficção científica"
+    },
+    {
+      "id": 3,
+      "name": "action",
+      "title": "Ação",
+      "description": "Os quadrinhos ganharam vida"
+    },
+    {
+      "id": 4,
+      "name": "horror",
+      "title": "Terror",
+      "description": "Aqui tem coragem!"
+    },
+    {
+      "id": 5,
+      "name": "fantasy",
+      "title": "Fantasia",
+      "description": "Vocês juram solenemente não fazer nada de bom? Porque eu também!"
+    },
+    {
+      "id": 6,
+      "name": "animation",
+      "title": "Animação",
+      "description": "Os títulos que despertam muita paixão e contam com os melhores fãs."
+    }
+  ],
+  "movies": [
+    {
+      "genre_id": 5,
+      "title": "Animais fantasticos e onde habitam",
+      "poster": "https://image.tmdb.org/t/p/original//kFgEl52DNhI6QqwN2CsKuxKl19T.jpg",
+      "description": "Um excêntrico magizoologista carrega uma maleta cheia de animais mágicos coletados durante suas viagens pelo mundo. As criaturas acabam saindo de sua mala em Nova York, e agora ele precisa usar suas habilidades para capturá-las."
+    },
+    {
+      "genre_id": 5,
+      "title": "Animais fantasticos: Os crimes de Grindelwald",
+      "poster": "https://assets0.minhaserie.com.br/uploads/editor_pictures/000/066/989/content_pic.jpg",
+      "description": "Newt Scamander reencontra os queridos amigos Tina Goldstein, Queenie Goldstein e Jacob Kowalski. Ele é recrutado pelo seu antigo professor em Hogwarts, Alvo Dumbledore, para enfrentar o terrível bruxo das trevas Grindelwald, que escapou da custódia do Congresso Mágico dos EUA e reúne seguidores, dividindo o mundo entre seres de magos sangue puro e seres não-mágicos."
+    },
+    {
+      "genre_id": 5,
+      "title": "Animais Fantásticos: Os segredos de Dumbledore",
+      "poster": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixunYuBODEgOuhvY8m66txpRvfFD7PZsHIZYbxYzf-GK6vGhA1bhTKOYyTYvWQ6vuUJhY3ESHSEkCMjq5YV2ciBgdgVZEXCDYQ1dMa2VyxFpo--vq94cL2EFR2VgOFg9Q-EEJLFzMetdQJxC3y29NsUOQdX-BZ710sC3AO49ZBdHysyGT0b7PmR0D3/s2048/Poster_Teddy_Pelucio-OsSegredosdeDumbledore.jpg",
+      "description": "O professor Alvo Dumbledore sabe que o poderoso mago das trevas Grindelwald está se movimentando para assumir o controle do mundo mágico. Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander para liderar uma intrépida equipe de bruxos, bruxas e um corajoso padeiro trouxa em uma missão perigosa, em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?"
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e a pedra filosofal",
+      "poster": "https://img.elo7.com.br/product/original/2657A1E/big-poster-harry-potter-e-a-pedra-filosofal-lo01-90x60-cm-presente-geek.jpg",
+      "description": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e a camara secreta",
+      "poster": "https://img.elo7.com.br/product/original/2657601/big-poster-filme-harry-potter-e-a-camara-secreta-lo02-90x60-geek.jpg",
+      "description": "Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e que algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a correr o risco e se livrar do lar problemático."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e o prisioneiro de Azkaban",
+      "poster": "https://img.elo7.com.br/product/zoom/2657A18/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo3-90x60-poster.jpg",
+      "description": "É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e o cálice de fogo",
+      "poster": "https://img.elo7.com.br/product/zoom/26576E3/big-poster-harry-potter-e-o-calice-de-fogo-lo01-90x60-cm-presente-nerd.jpg",
+      "description": "Harry retorna para seu quarto ano na Escola de Magia e Bruxaria de Hogwarts, junto com os seus amigos Ron e Hermione. Desta vez, acontece um torneio entre as três maiores escola de magia, com um participante selecionado de cada escola, pelo Cálice de Fogo. O nome de Harry aparece, mesmo não tendo se inscrito, e ele precisa competir."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e a ordem da Fênix",
+      "poster": "https://img.elo7.com.br/product/zoom/26579D5/big-poster-harry-potter-e-a-ordem-da-fenix-lo04-tam-90x60-cm-geek.jpg",
+      "description": "Após um verão desastroso, Harry volta para o seu quinto ano em Hogwarts, um dos mais difíceis que terá de encarar. Pouquíssimos alunos e pais acreditam nele ou em Dumbledore sobre a volta de Voldemort, e uma série interminável de artigos circula dizendo que eles estão completamente malucos. Ainda por cima, Dolores Umbridge, a nova professora de Defesa Contra as Artes das Trevas, prova ser a pessoa mais repugnante que Harry já conheceu."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e o enigma do príncipe",
+      "poster": "https://img.elo7.com.br/product/zoom/26578CE/big-poster-harry-potter-e-o-enigma-do-principe-lo07-90x60-cm-presente-nerd.jpg",
+      "description": "No sexto ano de Harry em Hogwarts, Lord Voldemort e seus Comensais da Morte estão criando o terror nos mundos bruxo e trouxa. Dumbledore convence seu velho amigo Horácio Slughorn para retornar a Hogwarts como professor de poções após Harry encontrar um estranho livro escolar. Draco Malfoy se esforça para realizar uma ação destinada por Voldemort, enquanto Dumbledore e Harry secretamente trabalham juntos a fim de descobrir o método para destruir o Lorde das Trevas uma vez por todas."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e as relíquias da morte parte 1",
+      "poster": "https://img.elo7.com.br/product/original/265766C/big-poster-harry-potter-e-as-reliquias-da-morte-lo06-90x60-nerd.jpg",
+      "description": "Sem a orientação e proteção de seus professores, Harry, Rony e Hermione iniciam uma missão para destruir as horcruxes, que são as fontes da imortalidade de Voldemort. Embora devam confiar um no outro mais do que nunca, forças das trevas ameaçam separá-los. Os Comensais da Morte de Voldemort tomaram o controle do Ministério da Magia e de Hogwarts, e eles estão procurando por Harry enquanto ele e seus amigos se preparam para o confronto final."
+    },
+    {
+      "genre_id": 5,
+      "title": "Harry Potter e as relíquias da morte parte 2",
+      "poster": "https://img.elo7.com.br/product/zoom/2657628/big-poster-harry-potter-e-as-reliquias-da-morte-lo01-90x60-presente-geek.jpg",
+      "description": "O confronto entre o bem e o mal espera pelo jovem Harry, que se prepara ao lado de Rony e Hermione para a batalha final contra Lord Voldemort. Harry se transformou em um garoto de aço em uma missão para livrar o mundo do mal. Os amigos devem procurar pelas últimas horcruxes que mantêm o covarde feiticeiro imortal."
+    },
+    {
+      "genre_id": 3,
+      "title": "Harry Potter e as relíquias da morte parte 2",
+      "poster": "https://img.elo7.com.br/product/zoom/2657628/big-poster-harry-potter-e-as-reliquias-da-morte-lo01-90x60-presente-geek.jpg",
+      "description": "O confronto entre o bem e o mal espera pelo jovem Harry, que se prepara ao lado de Rony e Hermione para a batalha final contra Lord Voldemort. Harry se transformou em um garoto de aço em uma missão para livrar o mundo do mal. Os amigos devem procurar pelas últimas horcruxes que mantêm o covarde feiticeiro imortal."
+    }
+  ]
+}

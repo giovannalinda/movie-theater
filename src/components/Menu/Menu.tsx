@@ -21,7 +21,7 @@ export function Menu({ children, onClose }: Props) {
         <li>Romance</li>
         <li>Ação</li>
         <li>Terror</li>
-        <li>Suspense</li>
+        <li>Fantasia</li>
         <li>Animação</li>
       </S.List>
 

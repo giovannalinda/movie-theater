@@ -4,30 +4,31 @@ import { Link } from 'react-router-dom'
 import * as S from './Login.styled'
 
 export function Login() {
-  const [loading, setLoading] = useState(true)
+  const [userName, setUserName] = useState(
+    localStorage.getItem('username') ?? '',
+  )
+
+  const firstLetterName = userName.charAt(0).toUpperCase()
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000)
-  }, [])
+    localStorage.setItem('username', userName)
+  }, [userName])
 
   return (
     <S.Container>
-      {!loading && (
-        <>
-          <h1>Quem está assistindo?</h1>
+      <h1>Quem está assistindo?</h1>
 
-          <Link to='/home' title='Ver catálogo'>
-            <S.Content>
-              <h2>G</h2>
-            </S.Content>
-            <p>Giovanna Souza</p>
-          </Link>
-        </>
-      )}
-
-      {loading && <h2>Carregando...</h2>}
+      <Link to='/home' title='Ver catálogo'>
+        <S.Content>
+          <h2>{firstLetterName}</h2>
+        </S.Content>
+      </Link>
+      <input
+        type='text'
+        placeholder='Seu nome aqui'
+        onChange={(event) => setUserName(event.target.value)}
+        value={userName}
+      />
     </S.Container>
   )
 }
