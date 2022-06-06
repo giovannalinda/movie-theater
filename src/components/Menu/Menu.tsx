@@ -8,6 +8,14 @@ type Props = {
   children?: ReactNode
   onClose: () => void
 }
+
+type GenreResponseProps = {
+  id: number
+  name: 'comedy' | 'ficção' | 'action' | 'horror' | 'fantasy' | 'animation'
+  title: string
+  description: string
+}
+
 export function Menu({ children, onClose }: Props) {
   return (
     <S.Aside>

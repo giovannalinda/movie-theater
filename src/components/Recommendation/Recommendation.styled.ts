@@ -36,6 +36,11 @@ export const InfoMovie = styled('div', {
     padding: '14px',
     marginLeft: '50px',
     marginRight: '20px',
+    transition: '0.8s',
+
+    '&:hover': {
+      opacity: '80%',
+    },
 
     img: {
       width: '25px',

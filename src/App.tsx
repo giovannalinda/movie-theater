@@ -2,7 +2,7 @@ import { globalCss } from './stitches.config'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Home, Login, Movies } from 'pages'
+import { Home, Login, Movies, NotFound } from 'pages'
 import { HOME, LOGIN } from 'routes'
 
 const globalStyles = globalCss({
@@ -37,6 +37,7 @@ function App() {
         <Route path={LOGIN} element={<Login />} />
         <Route path={HOME} element={<Home />} />
         <Route path='/movies/:genreId' element={<Movies />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )

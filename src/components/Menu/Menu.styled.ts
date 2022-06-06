@@ -29,7 +29,8 @@ export const Aside = styled('aside', {
     transition: '0.8s',
 
     '&:hover': {
-      borderColor: '$purple600',
+      borderColor: '$pink400',
+      color: '$pink400',
       background: 'none',
     },
 

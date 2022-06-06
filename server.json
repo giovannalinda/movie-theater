@@ -39,25 +39,25 @@
   ],
   "movies": [
     {
-      "genre_id": 5,
+      "genre_id": 1,
       "title": "Animais fantasticos e onde habitam",
       "poster": "https://image.tmdb.org/t/p/original//kFgEl52DNhI6QqwN2CsKuxKl19T.jpg",
       "description": "Um excêntrico magizoologista carrega uma maleta cheia de animais mágicos coletados durante suas viagens pelo mundo. As criaturas acabam saindo de sua mala em Nova York, e agora ele precisa usar suas habilidades para capturá-las."
     },
     {
-      "genre_id": 5,
+      "genre_id": 2,
       "title": "Animais fantasticos: Os crimes de Grindelwald",
       "poster": "https://assets0.minhaserie.com.br/uploads/editor_pictures/000/066/989/content_pic.jpg",
       "description": "Newt Scamander reencontra os queridos amigos Tina Goldstein, Queenie Goldstein e Jacob Kowalski. Ele é recrutado pelo seu antigo professor em Hogwarts, Alvo Dumbledore, para enfrentar o terrível bruxo das trevas Grindelwald, que escapou da custódia do Congresso Mágico dos EUA e reúne seguidores, dividindo o mundo entre seres de magos sangue puro e seres não-mágicos."
     },
     {
-      "genre_id": 5,
+      "genre_id": 3,
       "title": "Animais Fantásticos: Os segredos de Dumbledore",
       "poster": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixunYuBODEgOuhvY8m66txpRvfFD7PZsHIZYbxYzf-GK6vGhA1bhTKOYyTYvWQ6vuUJhY3ESHSEkCMjq5YV2ciBgdgVZEXCDYQ1dMa2VyxFpo--vq94cL2EFR2VgOFg9Q-EEJLFzMetdQJxC3y29NsUOQdX-BZ710sC3AO49ZBdHysyGT0b7PmR0D3/s2048/Poster_Teddy_Pelucio-OsSegredosdeDumbledore.jpg",
       "description": "O professor Alvo Dumbledore sabe que o poderoso mago das trevas Grindelwald está se movimentando para assumir o controle do mundo mágico. Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander para liderar uma intrépida equipe de bruxos, bruxas e um corajoso padeiro trouxa em uma missão perigosa, em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?"
     },
     {
-      "genre_id": 5,
+      "genre_id": 4,
       "title": "Harry Potter e a pedra filosofal",
       "poster": "https://img.elo7.com.br/product/original/2657A1E/big-poster-harry-potter-e-a-pedra-filosofal-lo01-90x60-cm-presente-geek.jpg",
       "description": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger."
@@ -69,7 +69,7 @@
       "description": "Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e que algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a correr o risco e se livrar do lar problemático."
     },
     {
-      "genre_id": 5,
+      "genre_id": 6,
       "title": "Harry Potter e o prisioneiro de Azkaban",
       "poster": "https://img.elo7.com.br/product/zoom/2657A18/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo3-90x60-poster.jpg",
       "description": "É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas."
