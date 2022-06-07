@@ -1,6 +1,6 @@
 import { styled } from 'stitches.config'
 
-export const Aside = styled('aside', {
+export const Container = styled('nav', {
   width: '330px',
   bottom: '0',
   position: 'fixed',
@@ -17,6 +17,8 @@ export const Aside = styled('aside', {
   button: {
     color: '$gray300',
     margin: '20px 0 0 50px',
+    background: 'none',
+    border: 'none',
   },
 
   a: {

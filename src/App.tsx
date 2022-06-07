@@ -15,7 +15,7 @@ const globalStyles = globalCss({
     background: '$black',
     color: '$white',
     fontFamily: 'Open Sans',
-    width: '100%',
+    width: '100vw',
   },
   button: {
     cursor: 'pointer',

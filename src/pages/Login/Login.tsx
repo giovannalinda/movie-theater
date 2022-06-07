@@ -1,18 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useUserName } from 'hooks/useUserName'
+
 import { Link } from 'react-router-dom'
 
 import * as S from './Login.styled'
 
 export function Login() {
-  const [userName, setUserName] = useState(
-    localStorage.getItem('username') ?? '',
-  )
-
-  const firstLetterName = userName.charAt(0).toUpperCase()
-
-  useEffect(() => {
-    localStorage.setItem('username', userName)
-  }, [userName])
+  const { userName, firstLetterName, setUserName } = useUserName()
 
   return (
     <S.Container>

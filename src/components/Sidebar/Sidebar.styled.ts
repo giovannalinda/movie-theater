@@ -1,6 +1,6 @@
 import { styled } from '../../stitches.config'
 
-export const Navbar = styled('div', {
+export const Navbar = styled('aside', {
   height: '40px',
   display: 'flex',
   justifyContent: 'space-between',
@@ -9,12 +9,13 @@ export const Navbar = styled('div', {
   zIndex: '1',
 })
 
-export const ShowSidebar = styled('div', {
-  button: {
-    position: 'absolute',
-    background: 'none',
-    border: '0',
-    color: '$gray300',
-    margin: '20px 0 0 50px',
+export const CollpaseButton = styled('button', {
+  background: 'none',
+  border: '0',
+  color: '$gray300',
+  margin: '20px 0 0 50px',
+
+  img: {
+    marginTop: '-12px',
   },
 })

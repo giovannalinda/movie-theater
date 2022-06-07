@@ -9,16 +9,9 @@ type Props = {
   onClose: () => void
 }
 
-type GenreResponseProps = {
-  id: number
-  name: 'comedy' | 'ficção' | 'action' | 'horror' | 'fantasy' | 'animation'
-  title: string
-  description: string
-}
-
 export function Menu({ children, onClose }: Props) {
   return (
-    <S.Aside>
+    <S.Container>
       <button onClick={onClose}>
         <FiX size={30} />
       </button>
@@ -38,6 +31,6 @@ export function Menu({ children, onClose }: Props) {
         Sair
       </Link>
       {children}
-    </S.Aside>
+    </S.Container>
   )
 }
