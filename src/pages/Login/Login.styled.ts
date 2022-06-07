@@ -20,10 +20,32 @@ export const Container = styled('div', {
     color: '$white',
   },
 
-  p: {
+  input: {
+    background: 'none',
+    border: '1px solid $white',
+    borderRadius: '4px',
+    color: '$white',
+    fontSize: '18px',
     textAlign: 'center',
     marginTop: '30px',
-    fontSize: '20px',
+    borderTopColor: 'transparent',
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    transition: '0.8s',
+    outline: 'none',
+    paddingBottom: '5px',
+
+    '&:focus': {
+      borderColor: '$pink400',
+      borderTopColor: 'transparent',
+      borderLeftColor: 'transparent',
+      borderRightColor: 'transparent',
+    },
+
+    '&::placeholder': {
+      color: '$white',
+      opacity: '30%',
+    },
   },
 })
 

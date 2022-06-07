@@ -1,2 +1,5 @@
 export * from './Sidebar'
 export * from './Menu'
+export * from './MovieCard'
+export * from './Header'
+export * from './Recommendation'

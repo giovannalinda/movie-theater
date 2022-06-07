@@ -8,9 +8,10 @@ type Props = {
   children?: ReactNode
   onClose: () => void
 }
+
 export function Menu({ children, onClose }: Props) {
   return (
-    <S.Aside>
+    <S.Container>
       <button onClick={onClose}>
         <FiX size={30} />
       </button>
@@ -21,7 +22,7 @@ export function Menu({ children, onClose }: Props) {
         <li>Romance</li>
         <li>Ação</li>
         <li>Terror</li>
-        <li>Suspense</li>
+        <li>Fantasia</li>
         <li>Animação</li>
       </S.List>
 
@@ -30,6 +31,6 @@ export function Menu({ children, onClose }: Props) {
         Sair
       </Link>
       {children}
-    </S.Aside>
+    </S.Container>
   )
 }

@@ -2,7 +2,7 @@ import { globalCss } from './stitches.config'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Home, Login } from 'pages'
+import { Home, Login, Movies, NotFound } from 'pages'
 import { HOME, LOGIN } from 'routes'
 
 const globalStyles = globalCss({
@@ -15,7 +15,7 @@ const globalStyles = globalCss({
     background: '$black',
     color: '$white',
     fontFamily: 'Open Sans',
-    width: '100%',
+    width: '100vw',
   },
   button: {
     cursor: 'pointer',
@@ -36,6 +36,8 @@ function App() {
       <Routes>
         <Route path={LOGIN} element={<Login />} />
         <Route path={HOME} element={<Home />} />
+        <Route path='/movies/:genreId' element={<Movies />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
